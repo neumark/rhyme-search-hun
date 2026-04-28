@@ -3,6 +3,10 @@
 A small React + TypeScript + Vite app that takes a Hungarian word as input and
 displays words from a Hungarian frequency dictionary that rhyme with it.
 
+## Try it instantly
+
+Try this app on [tinkerable.site](https://tinkerable.site/edit/github/neumark/rhyme-search-hun/main/files/src/App.tsx)
+
 ## How it works
 
 - The app bundles ~50k Hungarian words, sorted by descending frequency, from
