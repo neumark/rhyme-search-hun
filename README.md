@@ -5,7 +5,7 @@ displays words from a Hungarian frequency dictionary that rhyme with it.
 
 ## Try it instantly
 
-Try this app on [tinkerable.site](https://tinkerable.site/edit/github/neumark/rhyme-search-hun/main/files/src/App.tsx)
+Try this app on [tinkerable.site](https://tinkerable.site/present/github/neumark/rhyme-search-hun/main/files/src/App.tsx)
 
 ## How it works
 
