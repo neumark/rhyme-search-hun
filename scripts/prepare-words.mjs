@@ -35,7 +35,7 @@ const justWords = words.map(([w]) => w);
 fs.mkdirSync(path.dirname(outputPath), { recursive: true });
 fs.writeFileSync(
   outputPath,
-  `// Auto-generated from hu_50k frequency list.\n// ${justWords.length} Hungarian words, ordered by descending frequency.\n\nconst WORDS: string[] = ${JSON.stringify(justWords)};\n\nexport default WORDS;\n`
+  `// Auto-generated from hu_50k frequency list.\n// ${justWords.length} Hungarian words, ordered by descending frequency.\n\nexport const WORDS: string[] = ${JSON.stringify(justWords)};\n`
 );
 
 console.log(`Wrote ${justWords.length} words to ${outputPath}`);

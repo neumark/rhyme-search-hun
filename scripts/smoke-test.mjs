@@ -2,7 +2,7 @@
 import { readFileSync } from 'node:fs';
 
 const wordsSrc = readFileSync(new URL('../src/data/words.ts', import.meta.url), 'utf8');
-const m = wordsSrc.match(/const WORDS: string\[\] = (\[[\s\S]*?\]);/);
+const m = wordsSrc.match(/export const WORDS: string\[\] = (\[[\s\S]*?\]);/);
 const WORDS = JSON.parse(m[1]);
 
 const HUN_VOWELS = new Set(['a','á','e','é','i','í','o','ó','ö','ő','u','ú','ü','ű']);

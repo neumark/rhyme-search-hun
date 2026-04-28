@@ -1,5 +1,5 @@
 import { useDeferredValue, useMemo, useState } from 'react';
-import WORDS from './data/words';
+import {WORDS} from './data/words';
 import { findRhymes, type RhymeMatch } from './lib/rhyme';
 import './App.css';
 
